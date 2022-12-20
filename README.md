@@ -38,6 +38,12 @@ When the sine wave is the Flappy birds games player movement and the rectangle l
 
 ![Alt text](https://github.com/jkaewprateep/Equation-simulations/blob/main/Figure_1.png?raw=true "Title")
 
+## Simulation - key press ##
+
+Extracting only our key press from the previous graph.
+
+![Alt text](https://github.com/jkaewprateep/Equation-simulations/blob/main/Figure_2.png?raw=true "Title")
+
 ## Files and Directory ##
 
 1. sample.py : sample graph create
@@ -48,7 +54,7 @@ When the sine wave is the Flappy birds games player movement and the rectangle l
 
 ## Result image ##
 
-![Alt text](https://github.com/jkaewprateep/Equation-simulations/blob/main/Figure_2.png?raw=true "Title")
+Result after triaing for periods but sill have problem about longer day running and learning time and etc. we to simulate.
 
 ![Alt text](https://github.com/jkaewprateep/Equation-simulations/blob/main/FlappyBird_small.gif?raw=true "Title")
 
