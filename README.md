@@ -36,6 +36,11 @@ distance_accum + ( 10 * reward )
 
 When the sine wave is the Flappy birds games player movement and the rectangle line slope ( straigth line ) is our AI input the press K_w for press W buttom. Our goal is to simulate Flappy bird movement in scopes of randoms response from the games prove our equations and the problem is we do not modified the game it remains in the same speed and responses are from gamestate() return only you cannot breaks the game to win it with power of computer speed.
 
+``` 
+gameState = {'player_y': 256, 'player_vel': 0, 'next_pipe_dist_to_player': 309.0, 'next_pipe_top_y': 97, 
+'next_pipe_bottom_y': 347, 'next_next_pipe_dist_to_player': 453.0, 'next_next_pipe_top_y': 113, 'next_next_pipe_bottom_y': 363} 
+```
+
 ![Alt text](https://github.com/jkaewprateep/Equation-simulations/blob/main/Figure_1.png?raw=true "Title")
 
 ## Simulation - key press ##
