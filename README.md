@@ -40,7 +40,15 @@ When the sine wave is the Flappy birds games player movement and the rectangle l
 
 ## Simulation - key press ##
 
-Extracting only our key press from the previous graph.
+Extracting only our key press from the previous graph. It is something they called accelerate press where it is trends at the time of the games luanch they they told it make human more fun with game because we are better in this as our neurons does. The purpose is to make AI Deep learning more close to our sklills a bit but preferred because some tasks rules conditions cannot do. Some tasks that rules connditions do well, volumes, meters, matrixes, balance and that rules condition not do well for complexing deviding group or catagorized problems compared with in scopes without initail coditions.
+
+| Conditions | AI perform | Human perform | Rules condition |
+| --- | --- | --- | --- |
+| Catagorize pictures | Better | Best | Conditions |
+| Catagorize data | Small improvement | Best, small amount | Conditions |
+| Volumes matrixes | Same as rules | Experiences | Best |
+| Balances | Small improvement | Experiences | Conditions |
+| Acclerelation | Small improvement | Experiences | Conditions |
 
 ![Alt text](https://github.com/jkaewprateep/Equation-simulations/blob/main/Figure_2.png?raw=true "Title")
 
