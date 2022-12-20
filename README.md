@@ -11,14 +11,19 @@ How do you create equation simulation ? We see from the Flappy birds game that w
 
 We create equation to AI machine learning to learn our conditions and the AI try to play follow our rules with the simple models, if they play well that is because your inputs is the correct conditions but if not we can discuss your approch and simulation 
 
-####  ####
+#### Player avoid buttom gap ####
+
 ```
 ( next_pipe_bottom_y_array - player_y_array ) - ( player_y_array - target )
 ```
 
+#### Player avoid upper gap ####
+
 ```
 ( player_y_array - next_pipe_top_y_array ) - ( player_y_array - target )
 ```
+
+#### Player keep velocity balance of continue create distance ####
 
 ```
 distance_accum + ( 10 * reward )
