@@ -20,7 +20,7 @@ We create equation to AI machine learning to learn our conditions and the AI try
 
 #### Player avoid upper gap ####
 
-👧💬 Too close return the mimus and small value, you can control only one variable which is 'player_y_array' what you todo when you are the AI !?
+👧💬 Too close return the minus and small value, you can control only one variable which is 'player_y_array' what you todo when you are the AI !?
 ```
 ( player_y_array - next_pipe_top_y_array ) - ( player_y_array - target )
 ```
@@ -34,7 +34,7 @@ distance_accum + ( 10 * reward )
 
 ## Simulation ##
 
-When the sine wave is the Flappy birds games player movement and the rectangle line slope ( straigth line ) is our AI input the press K_w for press W buttom. Our goal is to simulate Flappy bird movement in scopes of randoms response from the games prove our equations and the problem is we do not modified the game it remains in the same speed and responses are from gamestate() return only you cannot breaks the game to win it with power of computer speed.
+When the sine wave is the Flappy birds games player movement and the rectangle line slope ( straigth line ) is our AI input the press K_w for press W buttom. Our goal is to simulate Flappy bird movement in the scopes of randoms response from the games to prove our equations and idea. The problem is we do not modified the game it remains in the same speed and responses are only from gamestate() and you cannot breaks the game speed to win it with the power of computer speed.
 
 ``` 
 gameState = {'player_y': 256, 'player_vel': 0, 'next_pipe_dist_to_player': 309.0, 'next_pipe_top_y': 97, 
@@ -45,7 +45,7 @@ gameState = {'player_y': 256, 'player_vel': 0, 'next_pipe_dist_to_player': 309.0
 
 ## Simulation - key press ##
 
-Extracting only our key press from the previous graph. It is something they called accelerate press where it is trends at the time of the games luanch they they told it make human more fun with game because we are better in this as our neurons does. The purpose is to make AI Deep learning more close to our sklills a bit but preferred because some tasks rules conditions cannot do. Some tasks that rules connditions do well, volumes, meters, matrixes, balance and that rules condition not do well for complexing deviding group or catagorized problems compared with in scopes without initail coditions.
+Extracting only our key press from the previous graph. It is something they called accelerate press where it is trends at the time at the games luanch they told it make human more fun with game because we are better in this as our neurons does. The purpose is to make AI Deep learning more close to our skills a bit but it is preferred because some tasks the rules conditions cannot do. Some tasks that rules conditions doing well, volumes, meters, matrixes, balance and that rules condition do not performing well for complexing deviding group or catagorized problems compared with in scopes without initail coditions.
 
 | Conditions | AI perform | Human perform | Rules condition |
 | --- | --- | --- | --- |
