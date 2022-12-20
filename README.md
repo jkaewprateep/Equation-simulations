@@ -9,6 +9,21 @@ How do you create equation simulation ? We see from the Flappy birds game that w
 
 ## Approches ##
 
+We create equation to AI machine learning to learn our conditions and the AI try to play follow our rules with the simple models, if they play well that is because your inputs is the correct conditions but if not we can discuss your approch and simulation 
+
+####  ####
+```
+( next_pipe_bottom_y_array - player_y_array ) - ( player_y_array - target )
+```
+
+```
+( player_y_array - next_pipe_top_y_array ) - ( player_y_array - target )
+```
+
+```
+distance_accum + ( 10 * reward )
+```
+
 ![Alt text](https://github.com/jkaewprateep/Equation-simulations/blob/main/Figure_1.png?raw=true "Title")
 
 ## Files and Directory ##
