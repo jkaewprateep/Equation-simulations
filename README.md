@@ -1,6 +1,11 @@
 # Equation-simulations
 How do you create equation simulation ? We see from the Flappy birds game that we need to transfrom input as { K_w and K_h } for { press_W and press_hold } to create a movement of the Flappy bird player in the Flappy bird games. How we create the equation that the AI deep learning models understand and perform the actions until it can play roels as auto-pilo auto-play ?
 
+👧💬 We create equations easy as this if you talking to them the scientist they transforms your requirements into matchametics equations.
+1. The stage has limits of the ceilning and floor.
+2. The satge has the limits of the top and buttom pipe gap.
+3. Flappy bird play hits one of the upper of lower gap is to new continue.
+4. Passing thouse each gap at the specific point the games give a reward for the Flappy birds.
 
 ## Approches ##
 
