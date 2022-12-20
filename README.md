@@ -32,6 +32,10 @@ We create equation to AI machine learning to learn our conditions and the AI try
 distance_accum + ( 10 * reward )
 ```
 
+## Simulation ##
+
+When the sine wave is the Flappy birds games player movement and the rectangle line slope ( straigth line ) is our AI input the press K_w for press W buttom.
+
 ![Alt text](https://github.com/jkaewprateep/Equation-simulations/blob/main/Figure_1.png?raw=true "Title")
 
 ## Files and Directory ##
