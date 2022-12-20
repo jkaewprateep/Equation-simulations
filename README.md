@@ -53,12 +53,14 @@ XXX------O------XXX|XXX------O------XXX|XXX------O------XXX|
 	
 ##### Left side point degrades #####
 
+🧸💬 Initial setup from near to success, running with accelrates as the ball though from gunners.
 ``` 
 leftside_velocity_pt = int( next_pipe_dist_to_player_array  / 2 )
 ``` 
 	
 ##### right side point degrades #####
 
+🧸💬 After this line we don't know what is behide we beleive acclerate of our power initail the ball with most effort.
 ```  
 rightside_velocity_pt = int( next_pipe_dist_to_player_array  + 
                         ( next_next_pipe_dist_to_player_array - next_pipe_dist_to_player_array ) / 2 ) 
@@ -66,60 +68,70 @@ rightside_velocity_pt = int( next_pipe_dist_to_player_array  +
 	
 ##### position Y upper gap #####
 
+🧸💬 Not go to far that this point that will escape.
 ``` 
 next_pipe_top_y_array
 ``` 
 
 ##### position Y standard gap #####
 
+🧸💬 Not go below this point too, that is not stable way.
 ``` 
 next_pipe_bottom_y_array 
 ``` 
 
 ##### position Y upper gap next #####
 
+🧸💬 We set our goal after we go though and not go back to the same initail.
 ``` 
 next_next_pipe_top_y_array
 ``` 
 
 ##### position Y standard gap next #####
 
+🧸💬 We not focus to make it fail happen.
 ``` 
 next_next_pipe_bottom_y_array
 ``` 
 	
 ##### distance from player_y_array to upper gap #####
 
+🧸💬 Distance is required to make most accelerate in speed before release the Flappy birds player to paces by itself.
 ``` 
 distance_upper_gap = next_pipe_bottom_y_array - player_y_array - next_pipe_top_y_array
 ``` 
 
 ##### distance from player_y_array to standard gap #####
 
+🧸💬 Dangerous area if you are into it keep paces until you comback to safe area.
 ``` 
 distance_standard_gap = next_pipe_bottom_y_array - player_y_array
 ``` 
 
 ##### distance from player_y_array to upper gap next #####
 
+🧸💬 Setup new goal after you passed this field test.
 ``` 
 distance_upper_gap_next = next_next_pipe_bottom_y_array - player_y_array - next_next_pipe_top_y_array
 ``` 
 
 ##### distance from player_y_array to standard gap next #####
 
+🧸💬 New concern area you need to improve but you cannot goback, next turn you need to do it better.
 ``` 
 distance_standard_gap_next = next_next_pipe_bottom_y_array - player_y_array
 ``` 
 
 ##### acceleration #####
 
+🧸💬 All the input we can send the ball initail to path.
 ``` 
 accleration = distance_upper_gap * accum_velocity
 ``` 
 
 ##### controls #####
 
+🧸💬 Setup goal increase by each year ( step )
 ``` 
 contrl = distance_accum
 contrl_left = step ( optional )
