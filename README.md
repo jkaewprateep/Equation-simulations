@@ -35,7 +35,8 @@ distance_accum + ( 10 * reward )
 ```
 
 ##### X -axis	#####
- 
+
+🧸💬 We suppose the Flappy birds player to travel is this angle, start initail point we setting and target initail point with some object we are try to win as the barrier from it success. ``` leftside_velocity_pt = int( next_pipe_dist_to_player_array  / 2 ) ```
 ```           
                    O                   O
                O       O           O       O
@@ -45,6 +46,7 @@ distance_accum + ( 10 * reward )
 
 ##### Y -axis #####
 
+🧸💬 About the Y-axis we assuming Y position value from the upper pipe is less near by player than the ceiling floor, the position between top and buttom now we call gap that player and free play travel in roles of them without suffering causes ``` next_pipe_top_y_array ``` , ``` next_pipe_bottom_y_array ``` , ``` next_next_pipe_top_y_array ```, and ``` next_next_pipe_bottom_y_array ``` .
 ```
 XXX------O------XXX|XXX------O------XXX|XXX------O------XXX|
 ```
