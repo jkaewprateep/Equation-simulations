@@ -55,6 +55,9 @@ Extracting only our key press from the previous graph. It is something they call
 | Balances | Small improvement | Experiences | Conditions |
 | Acclerelation | Small improvement | Experiences | Conditions |
 
+🐑💬 Do you see similarlity of the both graph of the Flappy birds player and our input press ( K_w ) W buttom ? That explain how do we mapping input and output functions return.
+🧸💬 You can try using domain transfroms formula for the method but that is further study if you do it the same as wavelengths response frequency propagation of short Fast furrier transfrom we will study it, speech data and wave is our favourite subject.
+
 ![Alt text](https://github.com/jkaewprateep/Equation-simulations/blob/main/Figure_2.png?raw=true "Title")
 
 ## Files and Directory ##
