@@ -32,6 +32,92 @@ We create equation to AI machine learning to learn our conditions and the AI try
 distance_accum + ( 10 * reward )
 ```
 
+##### X -axis	#####
+ 
+```
+-------------------|-------------------|-------------------|
+```
+
+##### Y -axis #####
+
+```
+-------------------|-------------------|-------------------|
+```
+	
+##### Left side point degrades #####
+
+``` 
+leftside_velocity_pt = int( next_pipe_dist_to_player_array  / 2 )
+``` 
+	
+##### right side point degrades #####
+
+```  
+rightside_velocity_pt = int( next_pipe_dist_to_player_array  + 
+                        ( next_next_pipe_dist_to_player_array - next_pipe_dist_to_player_array ) / 2 ) 
+``` 
+	
+##### position Y upper gap #####
+
+``` 
+next_pipe_top_y_array
+``` 
+
+##### position Y standard gap #####
+
+``` 
+next_pipe_bottom_y_array 
+``` 
+
+##### position Y upper gap next #####
+
+``` 
+next_next_pipe_top_y_array
+``` 
+
+##### position Y standard gap next #####
+
+``` 
+next_next_pipe_bottom_y_array
+``` 
+	
+##### distance from player_y_array to upper gap #####
+
+``` 
+distance_upper_gap = next_pipe_bottom_y_array - player_y_array - next_pipe_top_y_array
+``` 
+
+##### distance from player_y_array to standard gap #####
+
+``` 
+distance_standard_gap = next_pipe_bottom_y_array - player_y_array
+``` 
+
+##### distance from player_y_array to upper gap next #####
+
+``` 
+distance_upper_gap_next = next_next_pipe_bottom_y_array - player_y_array - next_next_pipe_top_y_array
+``` 
+
+##### distance from player_y_array to standard gap next #####
+
+``` 
+distance_standard_gap_next = next_next_pipe_bottom_y_array - player_y_array
+``` 
+
+##### acceleration #####
+
+``` 
+accleration = distance_upper_gap * accum_velocity
+``` 
+
+##### controls #####
+
+``` 
+contrl = distance_accum
+contrl_left = step ( optional )
+``` 
+
 ## Simulation ##
 
 When the sine wave is the Flappy birds games player movement and the rectangle line slope ( straigth line ) is our AI input the press K_w for press W buttom. Our goal is to simulate Flappy bird movement in the scopes of randoms response from the games to prove our equations and idea. The problem is we do not modified the game it remains in the same speed and responses are only from gamestate() and you cannot breaks the game speed to win it with the power of computer speed.
