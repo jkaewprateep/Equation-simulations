@@ -13,18 +13,21 @@ We create equation to AI machine learning to learn our conditions and the AI try
 
 #### Player avoid buttom gap ####
 
+👧💬 Too close return the mimus and small value, you can control only one variable which is 'player_y_array' what you todo when you are the AI !?
 ```
 ( next_pipe_bottom_y_array - player_y_array ) - ( player_y_array - target )
 ```
 
 #### Player avoid upper gap ####
 
+👧💬 Too close return the mimus and small value, you can control only one variable which is 'player_y_array' what you todo when you are the AI !?
 ```
 ( player_y_array - next_pipe_top_y_array ) - ( player_y_array - target )
 ```
 
 #### Player keep velocity balance of continue create distance ####
 
+👧💬 After few rounds play the previous rounds results as the model learning it will try to follow of some rules if the AI can learn of the patterns.
 ```
 distance_accum + ( 10 * reward )
 ```
