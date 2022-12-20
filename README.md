@@ -9,7 +9,7 @@ How do you create equation simulation ? We see from the Flappy birds game that w
 
 ## Approches ##
 
-We create equation to AI machine learning to learn our conditions and the AI try to play follow our rules with the simple models, if they play well that is because your inputs is the correct conditions but if not we can discuss your approch and simulation 
+We create equation to AI machine learning to learn our conditions and the AI try to play follow our rules with the simple models, if they play well that is because your inputs is the correct conditions but if not we can discuss your approch and simulation.
 
 #### Player avoid buttom gap ####
 
@@ -46,11 +46,11 @@ Extracting only our key press from the previous graph.
 
 ## Files and Directory ##
 
-1. sample.py : sample graph create
-2. Figure_1.png : graph 1 simulate our expecting movement 
-3. Figure_2.png : graph 2 the solve graph
-4. FlappyBird_small.gif : result image
-5. README.md : readme file
+1. sample.py : sample graph create.
+2. Figure_1.png : graph 1 simulate our expecting movement.
+3. Figure_2.png : graph 2 the solve graph.
+4. FlappyBird_small.gif : result image.
+5. README.md : readme file.
 
 ## Result image ##
 
