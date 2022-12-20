@@ -27,7 +27,9 @@ We create equation to AI machine learning to learn our conditions and the AI try
 
 #### Player keep velocity balance of continue create distance ####
 
-👧💬 After few rounds play the previous rounds results as the model learning it will try to follow of some rules if the AI can learn of the patterns.
+👧💬 After few rounds play the previous rounds results as the model learning it will try to follow of some rules if the AI can learn of the patterns. The game provide us next_pipe_dist_to_player_array and next_next_pipe_dist_to_player_array which are relative distance, the relative distance is the distance compare to our player in the game you can use this value but to make it easy understanding ``` increase of step is approximates increase of distance ``` . It is optiional to fllied the step into because all together are values and resonse to the game response input but we add step at the backside of the records input to see increasing of its number or you can add the internal step variables if you working with remotes devices. 🧸💬 The reasons is boardcastings medium is public and radios wide ranges is reflecting and travels that is one of the security working with radios must study in fileds area, in room study there are reflection but our electronics devices handlings it. 🐑💬 75 cm. diameters as examples.
+
+
 ```
 distance_accum + ( 10 * reward )
 ```
